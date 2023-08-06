@@ -3,12 +3,13 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import './App.css'; // Import the custom CSS file
-import Home from './Home';
 import Login from './login';
 import Register from './register';
 import PlanDetails from './PlanDetails';
 import PaymentForm from './PaymentForm';
 import MyPlan from './MyPlan';
+
+
 
 const App = () => {
   return (
