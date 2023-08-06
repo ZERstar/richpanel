@@ -12,8 +12,22 @@ const PaymentForm = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        navigate('/MyPlan');
-    };
+    
+        if (selectedPlan.price === '₹ 100') {
+          window.location.href = 'https://buy.stripe.com/dR69Df9Kv8twbBKbIJ'; // Redirect to Stripe checkout for Plan 1
+        } if (selectedPlan.price === '₹ 200'){
+          window.location.href = 'https://buy.stripe.com/fZe7v7aOz39c21acMO'; // Redirect to Stripe checkout for other plans
+        }
+        if (selectedPlan.price === '₹ 500'){
+          window.location.href = 'https://buy.stripe.com/eVa5mZg8T7ps35e4gg';
+        }
+        if (selectedPlan.price === '₹ 700'){
+          window.location.href = 'https://buy.stripe.com/cN2cPr09V5hkeNW9AD';
+        }
+        else{
+          window.location.href = 'https://buy.stripe.com/cN2cPr09V5hkeNW9AD';
+        }
+      };
 
     return (
         <div className="container">
