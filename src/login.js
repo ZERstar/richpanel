@@ -27,7 +27,7 @@ const Login = () => {
     e.preventDefault();
     // Perform registration logic here (e.g., submit data to the server)
     console.log(formData);
-    navigate('/register');
+    navigate('/PlanDetails');
   };
 
   return (
