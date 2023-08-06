@@ -1,0 +1,86 @@
+.plan-details-container {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 400px; */
+  }
+  
+  .toggle-container {
+    display: flex;
+    justify-content: flex-start; /* Align the toggle button to the start (left) */
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%; /* Set the width to occupy the full width of the container */
+  }
+  
+  .toggle-button {
+    position: relative;
+    width: 150px;
+    height: 60px;
+    background-color: #ccc;
+    border-radius: 30px;
+    cursor: pointer;
+    overflow: hidden;
+  }
+  
+  .highlight {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 75px;
+    height: 60px;
+    background-color: #007bff;
+    border-radius: 30px;
+    opacity: 0.5;
+    transition: transform 0.3s ease;
+  }
+  
+  .monthly-highlight {
+    transform: translateX(0);
+  }
+  
+  .yearly-highlight {
+    transform: translateX(75px);
+  }
+  
+  .monthly-text,
+  .yearly-text {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    z-index: 1;
+    width: 75px;
+  }
+  
+  .monthly-text {
+    left: 0;
+  }
+  
+  .yearly-text {
+    right: 0;
+  }
+  
+  .switch {
+    display: none;
+  }
+
+  .plan-details-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .plan-details-table th,
+  .plan-details-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+  }
+  

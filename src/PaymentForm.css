@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #f5f5f7;
+    display: flex;
+  }
+    
+  .complete-payment {
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+  }
+  
+  .order-summary {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #0078d4;
+    color: white;
+    border: none;
+  }
+  
+  .plan-name {
+    font-weight: bold;
+  }
+  
+  .plan-price {
+    color: green;
+  }
+  
+  /* Added this line */
+  body {
+    background-color: #204f92;
+  }
+  

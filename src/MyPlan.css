@@ -1,0 +1,61 @@
+.container {
+    text-align: center;
+    margin: 50px auto;
+    max-width: 500px;
+    background-color: #f5f5f7;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .current-plan {
+    margin-top: 0;
+  }
+  
+  .active {
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+  
+  .basic {
+    margin-top: 0;
+  }
+  
+  .phone {
+    margin-top: 0;
+    color: #0078d4;
+  }
+  
+  .rs {
+    font-size: 24px;
+    margin-top: 10px;
+  }
+  
+  .rs i {
+    margin-right: 5px;
+  }
+  
+  .subscription {
+    margin-top: 20px;
+  }
+  
+  button[type="plan"] {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  button[type="plan"] a {
+    color: white;
+    text-decoration: none;
+  }
+  
